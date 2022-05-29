@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Mangonel;
+  src: url(../fonts/Mangonel.ttf);
+}
+  
+  h1 {
+    font-family: 'Mangonel';
+    color: azure;
+  }
+  body {
+    background-color: rgb(45,62,197);
+    background-image: url('../ing/fondo/fondo.png');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed; 
+  	background-size: cover;
+    background-size: 100% 100%;
+   }
+#menu{
+    height: 99%;
+    width: 99%;
+    border-style:none;
+    padding-top: 5%;
+
+
+}
+
+#login{
+    border-style:none;
+}
+
+#images{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+th, td
+{
+    padding:50px;
+}
+
+.contra{
+    border-radius: 10px;
+    border-color: black;
+    height: 30px;
+    width: 100px;
+    background-color:rgb(44, 141, 221);
+}
+
+.boton{
+  border-radius: 10px;
+    border-color: black;
+    height: 70px;
+    width: 300px;
+    background-color:rgb(44, 141, 221);
+    color:red;
+}
+
+::placeholder{
+    color:red;
+}
